@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(245, 240, 240, 0.75),rgba(0,0,0,0.75)), url(Eyakin.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 3px;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 50;
+    overflow: hidden;
+    background-color: #333333;
+
+    
+}
+
+
+
+
+.navbar li{
+    float: right;
+}
+.navbar li a{
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    text-align: right;
+}
+
+.navlogo span a{
+    display: block;
+    float: left;
+    margin: 10px;
+    font-family: cursive;
+    color: rgb(255, 255, 255);
+    font-weight: 1000;
+    text-decoration: none;
+    font-size: 25px;
+    
+}
+
+.navlogo span a:hover{
+    background-color:  #111111;
+}
+.navbar li a:hover{
+    background-color:  #111111;
+}
+
+
+
+.hello{
+    width: 100%;
+    text-align: justify;
+    color: rgb(18, 1, 1);
+
+}
+
+.hello h1{
+    text-align: center;
+    font-size: 80px;
+    margin-top: 50px ;
+    font-size: 50px;
+    margin-bottom: 40px;
+    padding: 50px;
+    font-family: 'Cinzel', serif;
+   
+    
+
+}
+.hello p{
+    text-indent: 55px;
+    text-align: justify;
+    padding: 30px;
+    font-weight: 100;
+    line-height: 25px;
+    font-family: 'fauna one',serif;
+    font-size: 20px;
+   
+}
+
+.footer{
+    padding: 50px;
+    display: block;
+
+    background-color: black;
+    text-align: center!important;
+    color: white;
+
+}
+
+.footer p{
+    font-size: 20px;
+}
+
+.intro{
+    background-color: #333333;
+    padding: 10%;
+}
+
+#about h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 3vw;
+    font-family: Georgia;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(255, 255, 255);
+}
+
+#about p{
+    color: white;
+    font-family: Verdana;
+    text-align: justify;
+    line-height: 30px;
+}
+
+#codeforces{
+    text-decoration: none;
+    color: rgb(229, 222, 11);
+    font-weight: 700;
+    
+}
+
+#about a:hover{
+    color: rgb(33, 182, 0);
+}
+
+
+.knowme{
+    background-image: url(black-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20%;
+    border-bottom: 2px solid rgb(196, 7, 7);
+    border-top: 2px solid rgb(196, 7, 7);
+}
+
+.knowme h1{
+    color: white;
+    font-family: monospace;
+    font-size: 3vw;
+}
+
+#cl{
+    font-size: 3vw;
+    padding: 4px;
+}
+
+.mail{
+    margin-top: 50px;    
+}
+.mail p a{
+    border: 4px solid rgb(217, 38, 38);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+    font-style: italic;
+}
+
+.mail a:hover{
+    background-color: white;
+    color: black;
+}
